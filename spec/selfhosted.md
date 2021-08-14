@@ -71,6 +71,12 @@ This endpoint is responsible for creating a new channel for the galaxy, it shoul
 }
 ```
 
+## GET `/galaxy/:id/channels/:id`
+
+> :warning: This endpoint should only return data if the user is part of the galaxy, if the user then dosent have permissions over the channel then hide from any UI and restrict any API requests to edit or send, read, manage messages inside of the channel. 
+
+This endpoint is responsible for getting a single channel inside of a galaxy it should return a [channel](#galaxy_channel).
+
 # Versioning
 
 # Webhooks
