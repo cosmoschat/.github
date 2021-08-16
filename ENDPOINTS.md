@@ -13,7 +13,7 @@ ItsDangerous Tokens - https://docs.rs/itsdangerous/0.4.0/itsdangerous/
 - [ ] POST /auth/logout
 
 ### Profile
-- [ ] GET /me - Get profile
+- [ ] GET /me - Get profile 
 - [ ] PATCH /me - Edit profile
 
 ### Friends

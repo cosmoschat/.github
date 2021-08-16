@@ -1,10 +1,10 @@
 # Critical
 - [ ] Ability to create galaxies (servers)
-    - [ ] Server bassed perms (that is good 😃)
+    - [ ] Server bassed perms (that are good 😃)
     - [ ] Ability to create text channels
         - [ ] Send messages in channels
         - [ ] Delete messages
-        - [ ] Channels bassed perms (that is good 😃)
+        - [ ] Channels bassed perms (that are good 😃)
 - [ ] [Twemoji](https://twemoji.twitter.com/) support
 
 # High 
