@@ -1,39 +1,79 @@
-# Cosmos
+<h1 align="center">
+  <br>
+    Cosmos Chat
+  <br>
+  <br>
+</h1>
+<br>
+<h4 align="center">Connecting you to every galaxy.</h4>
+<br>
+<p align="center">
+  <a href="https://discord.gg/VWQfY2jn86"><img src="https://discord.com/api/guilds/874951956148416532/widget.png?style=shield" alt="Discord Server Invite"/></a>
+  <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="GPL v3 Licence"/>
+</p>
+<br>
+<p align="center">
+  <a href="#Repositories">Repositories</a> •
+  <a href="#Roadmap">Roadmap</a> •
+  <a href="#Status">Status</a> •
+  <a href="#Licence">Licence</a>
+</p>
+<br>
+<hr>
 
-Connecting you to every galaxy
+# Repositories
 
-# Idea
+- [UI (Web & Desktop)](https://github.com/cosmoschat/app)
+- [Hosted Server](https://github.com/cosmoschat/server)
+- [Self-Hosted Server](https://github.com/cosmoschat.com/selfhosted-server)
 
-Cosmos is a chat service which allows you peice of mind that your data is safe while abstracting away the pains of managing identites and useability.
+# Roadmap
 
-# Specifications
+## Features
 
-- [Self-Hosted Servers](./spec/selfhosted.md)
+### Critical
+- [ ] Ability to create galaxies (servers)
+    - [ ] Server bassed perms (that are good 😃)
+    - [ ] Ability to create text channels
+        - [ ] Send messages in channels
+        - [ ] Delete messages
+        - [ ] Channels bassed perms (that are good 😃)
+- [ ] [Twemoji](https://twemoji.twitter.com/) support
 
-# The Projects
+### High 
+- [ ] Create DMs
+- [ ] Custom emotes
+    - [ ] Per user
+    - [ ] Per galaxy
+- [ ] Custom user profiles
 
-Cosmos is currently split into 3 main parts which are described below along woth the current technology being used for each.
+### Medium
+- [ ] Ability to create voice chat channels
+- [ ] Server categories
+- [ ] Group DMs
+- [ ] 2FA
+- [ ] Badges, atainable for many reasons
 
-## UI
+### Low
+- [ ] Bot accounts
+    - [ ] Enforce all bots to use GPG key?
+- [ ] Verified/Signed messages
 
-The UI which allows users to access their servers & other peoples servers in a nice GUI, we will also allow custom GUIs as long as they follow a layed out spec and our code of conduct for GUIs
+## Platforms
 
-## Self-Hosted Server
+- [ ] Web
+- [ ] MacOS
+- [ ] Linux
+- [ ] Windows
+- [ ] iOS
+- [ ] Android
 
-This is the part that you run on your server or PC, it stores all messages, files, etc locally allowing access only to useres who are in a galaxy on that server. Each server can support more than 1 galaxy with a cap undecided at this time.
+# Status
+- [x] Alpha: Cosmos Chat is closed source and only avaliable to selected testers
+- [ ] Public Alpha: Comos Chat is open source and avaliable to the public for testing
+- [ ] Public Beta: Stable enough for most use
+- [ ] Public: Ready for production use
 
-## Our Servers
+# Licence
 
-Our servers are split into 3 parts, Identity, Metadata & Central Realtime Server. All of which are described in more detail below.
-
-### Identity
-
-The identity server is responsible for managing user authentication and generating tokens/signatures for self-hosted server to use for validation of identities.
-
-### Metadata
-
-This part of our server stores & manages basic metadata like Galaxy invites at a global scale as well as Galaxy ID, Names, etc.
-
-### Central Realtime Server
-
-Centra Realtime Server is responsible for allowing realtime communication between self-hosted servers and UI clients without the need for multiple socket connections.
+All parts of Cosmos Chat are under the [GPL-3.0 Licence](./LICENCE).
