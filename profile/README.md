@@ -8,7 +8,7 @@
 <h4 align="center">Connecting you to every galaxy.</h4>
 <br>
 <p align="center">
-  <a href="https://discord.gg/VWQfY2jn86"><img src="https://discord.com/api/guilds/874951956148416532/widget.png?style=shield" alt="Discord Server Invite"/></a>
+  <a href="https://discord.gg/8wevZKFrTd"><img src="https://discord.com/api/guilds/874951956148416532/widget.png?style=shield" alt="Discord Server Invite"/></a>
   <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="GPL v3 Licence"/>
 </p>
 <br>
